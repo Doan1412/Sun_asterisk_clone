@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="vi">
   <head>
-    <link rel="icon" href="../../assets/icons/favicon.ico" type="image/x-icon" />
+    <link
+      rel="icon"
+      href="../../assets/icons/favicon.ico"
+      type="image/x-icon"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trang chủ - Sun* Inc. Tuyển Dụng</title>
@@ -11,35 +15,64 @@
 
   <body>
     <header class="navbar">
-      <div class="navbar__logo">
-        <a href="index.html" aria-label="Trang chủ">
-          <img src="../../assets/images/logo-sun@2x.png" alt="logo" style="max-height: 40px" />
-        </a>
-      </div>
+      <div class="navbar__container">
+        <div class="navbar__logo">
+          <a href="index.html" aria-label="Trang chủ">
+            <img
+              src="../../assets/images/logo-sun@2x.png"
+              alt="logo"
+            />
+          </a>
+        </div>
 
-      <input type="checkbox" id="menu-toggle" class="navbar__toggle-checkbox" />
-      <div class="navbar__hamburger-btn">
-        <label for="menu-toggle" class="navbar__hamburger">
-          <span class="hamburger-icon"></span>
-          <span class="hamburger-icon"></span>
-          <span class="hamburger-icon"></span>
-        </label>
-      </div>
+        <input
+          type="checkbox"
+          id="menu-toggle"
+          class="navbar__toggle-checkbox"
+        />
+        <div class="navbar__hamburger-btn">
+          <label for="menu-toggle" class="navbar__hamburger">
+            <span class="hamburger-icon"></span>
+            <span class="hamburger-icon"></span>
+            <span class="hamburger-icon"></span>
+          </label>
+        </div>
 
-      <nav class="navbar__menu">
-        <ul class="navbar__menu-list">
-          <li class="navbar__menu-item-wrapper"><a href="#" class="navbar__menu-item navbar__menu-item--active">Trang chủ</a></li>
-          <li class="navbar__menu-item-wrapper"><a href="#" class="navbar__menu-item">Về chúng tôi</a></li>
-          <li class="navbar__menu-item-wrapper"><a href="#" class="navbar__menu-item">Dự án</a></li>
-          <li class="navbar__menu-item-wrapper"><a href="#" class="navbar__menu-item">Cơ hội nghề nghiệp</a></li>
-          <li class="navbar__menu-item-wrapper"><a href="#" class="navbar__menu-item">Môi trường làm việc</a></li>
-          <li class="navbar__menu-item-wrapper"><a href="#" class="navbar__menu-item">Tin tức</a></li>
+        <nav class="navbar__menu">
+          <ul class="navbar__menu-list">
+            <li class="navbar__menu-item-wrapper">
+              <a href="#" class="navbar__menu-item navbar__menu-item--active"
+                >Trang chủ</a
+              >
+            </li>
+            <li class="navbar__menu-item-wrapper">
+              <a href="#" class="navbar__menu-item">Về chúng tôi</a>
+            </li>
+            <li class="navbar__menu-item-wrapper">
+              <a href="#" class="navbar__menu-item">Dự án</a>
+            </li>
+            <li class="navbar__menu-item-wrapper">
+              <a href="#" class="navbar__menu-item">Cơ hội nghề nghiệp</a>
+            </li>
+            <li class="navbar__menu-item-wrapper">
+              <a href="#" class="navbar__menu-item">Môi trường làm việc</a>
+            </li>
+            <li class="navbar__menu-item-wrapper">
+              <a href="#" class="navbar__menu-item">Tin tức</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="navbar__lang">
+          <li>
+            <a
+              href="index.html"
+              class="navbar__lang-btn navbar__lang-btn--active"
+              >VI</a
+            >
+          </li>
+          <li><a href="index-en.html" class="navbar__lang-btn">EN</a></li>
         </ul>
-      </nav>
-      <ul class="navbar__lang">
-        <li><a href="index.html" class="navbar__lang-btn navbar__lang-btn--active">VI</a></li>
-        <li><a href="index-en.html" class="navbar__lang-btn">EN</a></li>
-      </ul>
+      </div>
     </header>
 
     <section class="video-container">
@@ -63,14 +96,15 @@
           <div class="field__description">
             <div class="field__text">
               <p>
-                Là một Digital Creative Studio, Sun* luôn đề cao tinh thần làm chủ sản phẩm, tư duy sáng tạo trong mỗi
-                dự án để mang đến những trải nghiệm <strong>"Awesome"</strong> nhất cho end-user.
+                Là một Digital Creative Studio, Sun* luôn đề cao tinh thần làm
+                chủ sản phẩm, tư duy sáng tạo trong mỗi dự án để mang đến những
+                trải nghiệm <strong>"Awesome"</strong> nhất cho end-user.
               </p>
               <p>
                 Với hai dòng dịch vụ là
                 <strong>"Creative &amp; Engineering"</strong> và
-                <strong>"Talent Platform"</strong>, Sun* đã và đang từng bước cùng công nghệ tạo ra những giá trị tốt
-                đẹp cho xã hội.
+                <strong>"Talent Platform"</strong>, Sun* đã và đang từng bước
+                cùng công nghệ tạo ra những giá trị tốt đẹp cho xã hội.
               </p>
             </div>
             <div class="field__image">
@@ -91,22 +125,137 @@
           <div class="circle circle--red circle--top-left"></div>
           <span class="box-tag">Digital Creative Studio</span>
         </div>
-        <div class="box-title">Creative<br>&amp; Engineering</div>
-        <div class="box-description">Đội ngũ nhân lực dồi dào chuyên về công nghệ, thiết kế và kinh doanh.</div>
-        <button class="learn-more-btn learn-more-btn--red">Tìm hiểu thêm →</button>
+        <div class="box-title">Creative<br />&amp; Engineering</div>
+        <div class="box-description">
+          Đội ngũ nhân lực dồi dào chuyên về công nghệ, thiết kế và kinh doanh.
+        </div>
+        <button class="learn-more-btn learn-more-btn--red">
+          Tìm hiểu thêm →
+        </button>
       </div>
-    
+
       <div class="box box--white">
         <div class="box-header">
           <div class="circle circle--white circle--top-left"></div>
           <span class="box-tag box-tag--light">Digital Creative Studio</span>
         </div>
-        <div class="box-title">Talent<br>Platform</div>
-        <div class="box-description">Các giải pháp nguồn nhân lực hỗ trợ tăng trưởng kinh doanh bền vững.</div>
-        <button class="learn-more-btn learn-more-btn--dark">Tìm hiểu thêm →</button>
+        <div class="box-title">Talent<br />Platform</div>
+        <div class="box-description">
+          Các giải pháp nguồn nhân lực hỗ trợ tăng trưởng kinh doanh bền vững.
+        </div>
+        <button class="learn-more-btn learn-more-btn--dark">
+          Tìm hiểu thêm →
+        </button>
         <div class="circle circle-right"></div>
         <div class="circle circle--down-right"></div>
       </div>
-    </section>    
+    </section>
+
+    <section class="project--container">
+      <div class="project--title">
+        <div class="circle project--down-left"></div>
+        <h2>Dự án của chúng tôi</h2>
+        <div class="circle project--top-right"></div>
+      </div>
+      <div class="project--content">
+        <div class="project--data">
+          <div class="project--items">
+            <div class="project--item">
+              <div class="project--number">200</div>
+              <div class="project--details">
+                <div class="project--plus">++</div>
+                <div class="project--label">Đối tác</div>
+              </div>
+            </div>
+            <div class="project--item">
+              <div class="project--number">300</div>
+              <div class="project--details">
+                <div class="project--plus">++</div>
+                <div class="project--label">Dịch vụ được hỗ trợ</div>
+              </div>
+            </div>
+          </div>
+          <button class="learn-more-btn learn-more-btn--dark">
+            Xem tất cả dự án →
+          </button>
+        </div>
+        <div class="project--slideshow">
+          <input type="radio" name="slider" id="slide1" checked />
+          <input type="radio" name="slider" id="slide2" />
+          <input type="radio" name="slider" id="slide3" />
+          <div class="slides">
+            <div class="slide">
+              <div class="slide--content">
+                <div class="slide--client">Kurashicom Inc</div>
+                <div class="slide--title">
+                  Dự án KURASHICOM
+                </div>
+                <div class="slide--description">
+                  Phát triển App giúp hiện thực hóa phong cách sống theo ý muốn
+                </div>
+                <a class="see-more-btn">
+                  Xem chi tiết →
+                </a>
+              </div>
+              <img src="..\..\assets\images\Kurashicom.png" alt="Slide 1" />
+            </div>
+            <div class="slide">
+              <div class="slide--content">
+                <div class="slide--client">Công ty TNHH ZENKIGEN</div>
+                <div class="slide--title">
+                  Dự án HARUTAKA
+                </div>
+                <div class="slide--description">
+                  “HARUTAKA” cho phép các công ty và người tìm việc có thể phỏng vấn trên web hoặc trong video bất kể thời gian hay địa điểm nào.
+                </div>
+                <a class="see-more-btn">
+                  Xem chi tiết →
+                </a>
+              </div>
+              <img src="..\..\assets\images\zenkigen_01.png" alt="Slide 2" />
+            </div>
+            <div class="slide">
+              <div class="slide--content">
+                <div class="slide--client">Công ty TNHH SSK</div>
+                <div class="slide--title">
+                  Dự án SSK 
+                </div>
+                <div class="slide--description">
+                  Thử thách để tiếp thêm năng lượng cho mọi người và xã hội với sports data.
+                </div>
+                <a class="see-more-btn">
+                  Xem chi tiết →
+                </a>
+              </div>
+              <img src="..\..\assets\images\Untitled-1-3.png" alt="Slide 3" />
+            </div>
+          </div>
+
+          <div class="nav-arrows-container">
+            <label for="slide3" class="nav-arrow prev prev-slide1"
+              >&#10094;</label
+            >
+            <label for="slide2" class="nav-arrow next next-slide1"
+              >&#10095;</label
+            >
+
+            <label for="slide1" class="nav-arrow prev prev-slide2"
+              >&#10094;</label
+            >
+            <label for="slide3" class="nav-arrow next next-slide2"
+              >&#10095;</label
+            >
+
+            <label for="slide2" class="nav-arrow prev prev-slide3"
+              >&#10094;</label
+            >
+            <label for="slide1" class="nav-arrow next next-slide3"
+              >&#10095;</label
+            >
+          </div>
+        </div>
+      </div>
+      <div class="circle project--down-right"></div>
+    </section>
   </body>
 </html>

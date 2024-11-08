@@ -12,6 +12,40 @@
   .navbar__menu-list {
     gap: 15px;
   }
+
+  .box {
+    width: 400px;
+  }
+  
+  .career {
+    margin: 0 20px;
+  }
+
+  .career--sun {
+    font-size: 16px;
+  }
+  .career--title {
+    font-size: 36px;
+  }
+
+  .career--slogan {
+    font-size: 20px;
+  }
+
+  .career--description {
+    font-size: 16px;
+  }
+
+  .learn-more-btn {
+    font-size: 16px;
+    height: 60px;
+  }
+
+  .image-section--button {
+    position: absolute;
+    width: 80%;
+    top: 75%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -210,6 +244,14 @@
   .slide img {  
     height: 294px;
   }
+
+  .work-environment--title {
+    font-size: 28px;
+  }
+
+  .checklist--text {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -284,5 +326,56 @@
 
   .slide img {  
     height: 490px;
+  }
+
+  .career--title {
+    font-size: 32px;
+  }
+
+  .career--slogan {
+    font-size: 18px;
+    line-height: 2;
+  }
+
+  .career--description {
+    font-size: 14px;
+  }
+
+  .learn-more-btn {
+    font-size: 16px;
+    height: 60px;
+  }
+
+  .career--btn {
+    width: 290px;
+  }
+
+  .work-environment--content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work-environment--title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .work-environment--image-section {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .image-section--img {
+    max-width: 100%;
+  }
+
+  .checklist--text {
+    font-size: 15px;
+  }
+
+  .image-section--button {
+    position: absolute;
+    width: 80%;
+    top: 70px;
   }
 }

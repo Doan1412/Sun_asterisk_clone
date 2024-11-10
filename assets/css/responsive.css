@@ -16,6 +16,10 @@
   .box {
     width: 400px;
   }
+
+  .project--content {
+    gap: 60px;
+  }
   
   .career {
     margin: 0 20px;
@@ -45,6 +49,10 @@
     position: absolute;
     width: 80%;
     top: 75%;
+  }
+
+  .event--title {
+    font-size: 32px;
   }
 }
 
@@ -83,7 +91,7 @@
     margin: 0;
     padding-left: 0;
     position: absolute;
-    top: 60px;
+    top: 100px;
     width: 100%;
     z-index: 1000;
   }
@@ -109,6 +117,7 @@
     margin: 0;
     padding-left: 0;
     width: 100%;
+    gap: 0;
   }
 
   .navbar__menu-item-wrapper {
@@ -252,6 +261,61 @@
   .checklist--text {
     font-size: 16px;
   }
+
+  .event--title {
+    font-size: 28px;
+  }
+
+  .event--title::after {
+    display: none;
+  }
+
+  .event--slide-title {
+    height: 75px;
+    overflow: hidden;
+  }
+
+  .join--btn {
+    right: 20px;
+  }
+
+  .footer {
+    min-width: 100% !important;
+  }
+  .footer--container {
+    min-width: 100%;
+  }
+  
+  .footer--content {
+    min-width: 95% !important;
+    margin: 50px 10px;
+  }
+
+  .footer-section--title {
+    font-size: 16px;
+  }
+
+  .footer-info {
+    gap: 5px;
+  }
+
+  .footer-section {
+    max-width: 340px;
+  }
+
+  .footer--connect {
+    min-width: 95% !important;
+    margin: 50px 10px;
+  }
+
+  .footer--icon img {
+    width: 21px;
+    height: 21px;
+  }
+
+  .footer--connect-icon ul {
+    gap: 5px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -377,5 +441,56 @@
     position: absolute;
     width: 80%;
     top: 70px;
+  }
+
+  .event--title {
+    margin-top: 70px;
+  }
+
+  .event--title::before {
+    display: none;
+  }
+
+  .event--nav-arrows-container {
+    display: none;
+  }
+
+  
+  @keyframes sliderAuto {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-105%); }
+    50% { transform: translateX(-205%); }
+    75% { transform: translateX(-310%); }
+    100% { transform: translateX(-415%); }
+  }
+  
+  .event--slides {
+    animation: sliderAuto 8s infinite;
+  }
+
+  .event--slide {
+    min-width: 100%;
+  }
+
+  .event--btn {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .footer--content {
+    flex-direction: column;
+  }
+
+  .footer-info {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .footer--connect {
+    flex-direction: column;
   }
 }

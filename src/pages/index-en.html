@@ -11,49 +11,71 @@
     <title>Home - English - Sun* Inc. Recruitment</title>
     <link rel="stylesheet" href="../../assets/css/styles.css" />
     <link rel="stylesheet" href="../../assets/css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
   <body>
     <header class="navbar">
-      <div class="navbar__logo">
-        <a href="index.html" aria-label="Trang chủ">
-          <img
-            src="../../assets/images/logo-sun@2x.png"
-            alt="logo"
-            style="max-height: 40px"
-          />
-        </a>
-      </div>
+      <div class="navbar__container">
+        <div class="navbar__logo">
+          <a href="index.html" aria-label="Trang chủ">
+            <img src="../../assets/images/logo-sun@2x.png" alt="logo" />
+          </a>
+        </div>
 
-      <input type="checkbox" id="menu-toggle" class="navbar__toggle-checkbox" />
-      <div class="navbar__hamburger-btn">
-        <label for="menu-toggle" class="navbar__hamburger">
-          <span class="hamburger-icon"></span>
-          <span class="hamburger-icon"></span>
-          <span class="hamburger-icon"></span>
-        </label>
-      </div>
+        <input
+          type="checkbox"
+          id="menu-toggle"
+          class="navbar__toggle-checkbox"
+        />
+        <div class="navbar__hamburger-btn">
+          <label for="menu-toggle" class="navbar__hamburger">
+            <span class="hamburger-icon"></span>
+            <span class="hamburger-icon"></span>
+            <span class="hamburger-icon"></span>
+          </label>
+        </div>
 
-      <nav class="navbar__menu">
-        <ul class="navbar__menu-list">
-          <li class="navbar__menu-item-wrapper"><a href="#" class="navbar__menu-item navbar__menu-item--active">Home</a></li>
-          <li class="navbar__menu-item-wrapper"><a href="#" class="navbar__menu-item">About us</a></li>
-          <li class="navbar__menu-item-wrapper"><a href="#" class="navbar__menu-item">Projects</a></li>
-          <li class="navbar__menu-item-wrapper"><a href="#" class="navbar__menu-item">Career</a></li>
-          <li class="navbar__menu-item-wrapper"><a href="#" class="navbar__menu-item">Environment</a></li>
-          <li class="navbar__menu-item-wrapper"><a href="#" class="navbar__menu-item">News</a></li>
+        <nav class="navbar__menu">
+          <ul class="navbar__menu-list">
+            <li class="navbar__menu-item-wrapper">
+              <a href="#" class="navbar__menu-item navbar__menu-item--active"
+                >Home</a
+              >
+            </li>
+            <li class="navbar__menu-item-wrapper">
+              <a href="#" class="navbar__menu-item">About us</a>
+            </li>
+            <li class="navbar__menu-item-wrapper">
+              <a href="#" class="navbar__menu-item">Projects</a>
+            </li>
+            <li class="navbar__menu-item-wrapper">
+              <a href="#" class="navbar__menu-item">Career</a>
+            </li>
+            <li class="navbar__menu-item-wrapper">
+              <a href="#" class="navbar__menu-item">Environment</a>
+            </li>
+            <li class="navbar__menu-item-wrapper">
+              <a href="#" class="navbar__menu-item">News</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="navbar__lang">
+          <li>
+            <a href="index.html" class="navbar__lang-btn">VI</a>
+          </li>
+          <li>
+            <a
+              href="index-en.html"
+              class="navbar__lang-btn navbar__lang-btn--active"
+              >EN</a
+            >
+          </li>
         </ul>
-      </nav>
-      <ul class="navbar__lang">
-        <li><a href="index.html" class="navbar__lang-btn">VI</a></li>
-        <li>
-          <a
-            href="index-en.html"
-            class="navbar__lang-btn navbar__lang-btn--active"
-            >EN</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
 
     <section class="video-container">
@@ -109,11 +131,10 @@
         </div>
         <div class="box-title">Creative<br />&amp; Engineering</div>
         <div class="box-description">
-          Abundant human resource specializing in technology, design and business.
+          Abundant human resource specializing in technology, design and
+          business.
         </div>
-        <button class="learn-more-btn learn-more-btn--red">
-          See more →
-        </button>
+        <button class="learn-more-btn learn-more-btn--red">See more →</button>
       </div>
 
       <div class="box box--white">
@@ -125,12 +146,485 @@
         <div class="box-description">
           Human resource solutions to support sustainable business growth.
         </div>
-        <button class="learn-more-btn learn-more-btn--dark">
-          See more →
-        </button>
+        <button class="learn-more-btn learn-more-btn--dark">See more →</button>
         <div class="circle circle-right"></div>
         <div class="circle circle--down-right"></div>
       </div>
     </section>
+
+    <section class="project--container">
+      <div class="project--title">
+        <div class="circle project--down-left"></div>
+        <h2>Our Project</h2>
+        <div class="circle project--top-right"></div>
+      </div>
+      <div class="project--content">
+        <div class="project--data">
+          <div class="project--items">
+            <div class="project--item">
+              <div class="project--number-client"></div>
+              <div class="project--details">
+                <div class="project--plus">++</div>
+                <div class="project--label">Clients</div>
+              </div>
+            </div>
+            <div class="project--item">
+              <div class="project--number-service"></div>
+              <div class="project--details">
+                <div class="project--plus">++</div>
+                <div class="project--label">Supported Services</div>
+              </div>
+            </div>
+          </div>
+          <button class="learn-more-btn learn-more-btn--dark">
+            See all projects →
+          </button>
+        </div>
+        <div class="project--slideshow">
+          <input type="radio" name="slider" id="slide1" checked />
+          <input type="radio" name="slider" id="slide2" />
+          <input type="radio" name="slider" id="slide3" />
+          <div class="slides">
+            <div class="slide">
+              <div class="slide--content">
+                <div class="slide--client">Kurashicom Inc</div>
+                <div class="slide--title">KURASHICOM Project</div>
+                <div class="slide--description">
+                  App development helps to realize the lifestyle that you want
+                </div>
+                <a class="see-more-btn"> View Detail → </a>
+              </div>
+              <img src="..\..\assets\images\Kurashicom.png" alt="Slide 1" />
+            </div>
+            <div class="slide">
+              <div class="slide--content">
+                <div class="slide--client">Công ty TNHH ZENKIGEN</div>
+                <div class="slide--title">HARUTAKA Project</div>
+                <div class="slide--description">
+                  “HARUTAKA” allows companies and job seekers/ applicants to
+                  interview on the web or in video at any time, in any place.
+                </div>
+                <a class="see-more-btn"> View Detail → </a>
+              </div>
+              <img src="..\..\assets\images\zenkigen_01.png" alt="Slide 2" />
+            </div>
+            <div class="slide">
+              <div class="slide--content">
+                <div class="slide--client">SSK Company Limited</div>
+                <div class="slide--title">SSK Project</div>
+                <div class="slide--description">
+                  Challenge to energize people and society with sports data.
+                </div>
+                <a class="see-more-btn"> View Detail → </a>
+              </div>
+              <img src="..\..\assets\images\Untitled-1-3.png" alt="Slide 3" />
+            </div>
+          </div>
+
+          <div class="nav-arrows-container">
+            <label for="slide3" class="nav-arrow prev prev-slide1"
+              >&#10094;</label
+            >
+            <label for="slide2" class="nav-arrow next next-slide1"
+              >&#10095;</label
+            >
+
+            <label for="slide1" class="nav-arrow prev prev-slide2"
+              >&#10094;</label
+            >
+            <label for="slide3" class="nav-arrow next next-slide2"
+              >&#10095;</label
+            >
+
+            <label for="slide2" class="nav-arrow prev prev-slide3"
+              >&#10094;</label
+            >
+            <label for="slide1" class="nav-arrow next next-slide3"
+              >&#10095;</label
+            >
+          </div>
+        </div>
+      </div>
+      <div class="circle project--down-right"></div>
+    </section>
+
+    <section class="career">
+      <div class="career--content">
+        <div class="career--sun">Sun Asterisk</div>
+        <div class="career--title">Career</div>
+        <div class="career--slogan">
+          Join us &amp; MAKE AWESOME THINGS THAT MATTER.
+        </div>
+        <div class="career--description">
+          Sun* has always been looking for challenge-driven people to create
+          "awesome" values.
+        </div>
+        <button class="learn-more-btn learn-more-btn--red career--btn">
+          Join Sun* →
+        </button>
+      </div>
+    </section>
+
+    <section class="work-environment">
+      <h2 class="work-environment--title">Working environment</h2>
+      <div class="work-environment--content">
+        <div class="work-environment--checklist">
+          <div class="checklist--item">
+            <img
+              src="..\..\assets\icons\icon-check.svg"
+              alt="Check Icon"
+              class="checklist--icon"
+            />
+            <p class="checklist--text">
+              #ActiveChallenge: Actively create continuous challenges.
+            </p>
+          </div>
+          <div class="checklist--item">
+            <img
+              src="..\..\assets\icons\icon-check.svg"
+              alt="Check Icon"
+              class="checklist--icon"
+            />
+            <p class="checklist--text">
+              #ActiveLearn: Learning within an organization encompasses all
+              essential components, including the Learning Environment, Learning
+              Opportunities, and Learning Capacity.
+            </p>
+          </div>
+          <div class="checklist--item">
+            <img
+              src="..\..\assets\icons\icon-check.svg"
+              alt="Check Icon"
+              class="checklist--icon"
+            />
+            <p class="checklist--text">
+              #ActiveJoy: Thriving in a cultural environment focused on human
+              values and universal happiness.
+            </p>
+          </div>
+        </div>
+        <div class="work-environment--image-section">
+          <img
+            src="..\..\assets\images\human-centered.png"
+            alt="Môi trường làm việc"
+            class="image-section--img"
+          />
+          <button
+            class="learn-more-btn learn-more-btn--dark image-section--button"
+          >
+            Xem chi tiết →
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="event">
+      <h2 class="event--title">Culture - Event</h2>
+      <div class="event--slideshow">
+        <input type="radio" name="slider-1" id="slide1-1" checked />
+        <input type="radio" name="slider-1" id="slide2-1" />
+        <input type="radio" name="slider-1" id="slide3-1" />
+        <input type="radio" name="slider-1" id="slide4-1" />
+
+        <div class="event--slides">
+          <div class="event--slide">
+            <div class="event--image">
+              <img
+                src="..\..\assets\images\0975f17b-89f3-4eab-a4fd-33b55df9d80d.webp"
+                alt="Slide 1"
+                class="event--slide-img"
+              />
+            </div>
+            <div class="event--slide-content">
+              <div class="event--slide-title">
+                Insurance SaaS Development Support Project: Golang, VueJS as a
+                “catalyst” for Sunner to break boundaries
+              </div>
+              <div class="event--slide-description">
+                “The tougher the challenge, the more exciting it is to take it
+                on,” “A new language is not a barrier, but an opportunity to
+                prove capability” are common phrases that the members of the
+                Insurance SaaS project continuously emphasize when asked about
+                how they tackled difficult problems from the client and
+                maintained a CSS score above 90 for three years of operation.
+              </div>
+              <a class="see-more-btn"> See details → </a>
+            </div>
+          </div>
+          <div class="event--slide">
+            <div class="event--image">
+              <img
+                src="..\..\assets\images\7d926be4-e8c6-4b1b-b4a8-e0ccf52f362b.webp"
+                alt="Slide 2"
+                class="event--slide-img"
+              />
+            </div>
+            <div class="event--slide-content">
+              <div class="event--slide-title">
+                6 months with the strategy “Whole Sun* continuous learning and
+                practice”, what results have we achieved?
+              </div>
+              <div class="event--slide-description">
+                To nurture and strongly develop a learning culture, thus
+                becoming a “Learning Organization,” over the past 6 months, with
+                the strategy “Whole Sun* continuous learning and practice,” we
+                have achieved positive learning outcomes. These results show the
+                effectiveness of systematic implementation, combined with the
+                breakthrough thinking and continuous self-development of Sun*
+                members, which have been contributing to helping us go faster
+                and further toward our goals.
+              </div>
+              <a class="see-more-btn"> See details → </a>
+            </div>
+          </div>
+          <div class="event--slide">
+            <div class="event--image">
+              <img
+                src="..\..\assets\images\b8eab75a-a36f-4a25-82e6-8942a6ad62a3.webp"
+                alt="Slide 3"
+                class="event--slide-img"
+              />
+            </div>
+            <div class="event--slide-content">
+              <div class="event--slide-title">
+                Introducing the K8S server for CEVs to freely execute internal
+                projects
+              </div>
+              <div class="event--slide-description">
+                In just 2 months, the K8s server project team from IFU
+                successfully released the K8s server. Now, CEVs at Sun* can use
+                the K8s server to optimize server resources, promote creativity,
+                build and develop internal tools, thus asserting value and
+                increasing work efficiency at Sun*.
+              </div>
+              <a class="see-more-btn"> See details → </a>
+            </div>
+          </div>
+          <div class="event--slide">
+            <div class="event--image">
+              <img
+                src="https://news.sun-asterisk.com/images/440x248/f8e7e84c-29f1-4cbd-b2a3-263d42578a10.png"
+                alt="Slide 4"
+                class="event--slide-img"
+              />
+            </div>
+            <div class="event--slide-content">
+              <div class="event--slide-title">
+                Conquering the CKA 2024 certification with Hữu Kim (R&D):
+                "Exciting and full of valuable lessons"
+              </div>
+              <div class="event--slide-description">
+                Sunner Hữu Kim (R&D) just went through the journey of taking the
+                CKA (Certified Kubernetes Administrator) exam in 2024. When
+                recalling this exam, excitement and many hard-earned lessons are
+                the impressions Kim remembers most. CKA is one of the 3 popular
+                Kubernetes certifications, including CKAD, CKA, and CKS. Let’s
+                follow Hữu Kim’s experience conquering the CKA certification
+                below!
+              </div>
+              <a class="see-more-btn"> See details → </a>
+            </div>
+          </div>
+          <div class="event--slide">
+            <div class="event--image">
+              <img
+                src="..\..\assets\images\0975f17b-89f3-4eab-a4fd-33b55df9d80d.webp"
+                alt="Slide 1"
+                class="event--slide-img"
+              />
+            </div>
+            <div class="event--slide-content">
+              <div class="event--slide-title">
+                Insurance SaaS Development Support Project: Golang, VueJS as a
+                “catalyst” for Sunner to break boundaries
+              </div>
+              <div class="event--slide-description">
+                “The tougher the challenge, the more exciting it is to take it
+                on,” “A new language is not a barrier, but an opportunity to
+                prove capability” are common phrases that the members of the
+                Insurance SaaS project continuously emphasize when asked about
+                how they tackled difficult problems from the client and
+                maintained a CSS score above 90 for three years of operation.
+              </div>
+              <a class="see-more-btn"> See details → </a>
+            </div>
+          </div>
+          <div class="event--slide">
+            <div class="event--image">
+              <img
+                src="..\..\assets\images\7d926be4-e8c6-4b1b-b4a8-e0ccf52f362b.webp"
+                alt="Slide 2"
+                class="event--slide-img"
+              />
+            </div>
+            <div class="event--slide-content">
+              <div class="event--slide-title">
+                6 months with the strategy “Whole Sun* continuous learning and
+                practice”, what results have we achieved?
+              </div>
+              <div class="event--slide-description">
+                To nurture and strongly develop a learning culture, thus
+                becoming a “Learning Organization,” over the past 6 months, with
+                the strategy “Whole Sun* continuous learning and practice,” we
+                have achieved positive learning outcomes. These results show the
+                effectiveness of systematic implementation, combined with the
+                breakthrough thinking and continuous self-development of Sun*
+                members, which have been contributing to helping us go faster
+                and further toward our goals.
+              </div>
+              <a class="see-more-btn"> See details → </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="event--nav-arrows-container">
+          <label for="slide4-1" class="event--nav-arrow event--prev-slide1">
+            &#10094;
+          </label>
+          <label for="slide2-1" class="event--nav-arrow event--next-slide1">
+            &#10095;
+          </label>
+
+          <label for="slide1-1" class="event--nav-arrow event--prev-slide2">
+            &#10094;
+          </label>
+          <label for="slide3-1" class="event--nav-arrow event--next-slide2">
+            &#10095;
+          </label>
+
+          <label for="slide2-1" class="event--nav-arrow event--prev-slide3">
+            &#10094;
+          </label>
+          <label for="slide4-1" class="event--nav-arrow event--next-slide3">
+            &#10095;
+          </label>
+
+          <label for="slide3-1" class="event--nav-arrow event--prev-slide4">
+            &#10094;
+          </label>
+          <label for="slide1-1" class="event--nav-arrow event--next-slide4">
+            &#10095;
+          </label>
+        </div>
+      </div>
+      <div class="event--btn">
+        <button class="learn-more-btn learn-more-btn--dark event--btn">
+          See more →
+        </button>
+      </div>
+    </section>
+
+    <div class="join--btn">
+      <a href="#">Join us</a>
+    </div>
+
+    <footer class="footer">
+      <div class="footer--container">
+        <div class="footer--content">
+          <div class="footer--logo">
+            <img
+              src="../../assets/images/logo-sun@2x.png"
+              alt="logo"
+              class="logo-section"
+            />
+          </div>
+          <div class="footer-info">
+            <div class="footer-section">
+              <div class="footer-section--title">Who are we?</div>
+              <ul class="footer-section--list">
+                <li><a href="#">Vision, mission</a></li>
+                <li><a href="#">Core values</a></li>
+                <li><a href="#">The meaning of the name Sun*</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <div class="footer-section--title">What do we do?</div>
+              <ul class="footer-section--list">
+                <li><a href="#">Creative &amp; Engineering</a></li>
+                <li><a href="#">Talent Platform</a></li>
+                <li><a href="#">Our projects</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <div class="footer-section--title">Updated News</div>
+              <ul class="footer-section--list">
+                <li><a href="#">Culture - Events</a></li>
+                <li><a href="#">Recruitment</a></li>
+                <li><a href="#">Benefits and perks</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <div class="footer-section--title">Contact</div>
+              <ul class="footer-section--list">
+                <li><a href="#">Phone: 84-24-3795-5417</a></li>
+                <li><a href="#">Email: hr@sun-asterisk.com</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <div class="footer-section--title">Office</div>
+              <ul class="footer-section--list">
+                <li>
+                  T13, Keangnam Hanoi Landmark Tower, Pham Hung, Nam Tu Liem,
+                  Hanoi
+                </li>
+                <li>
+                  4F, FHome Building, 16 Ly Thuong Kiet Str., Hai Chau district,
+                  Da Nang
+                </li>
+                <li>
+                  9th Floor, L'Mak Long Tower, 101-103 Nguyen Cuu Van, Ward 17,
+                  Binh Thanh District, Ho Chi Minh City
+                </li>
+                <li>Tokyo Office - Cebu Office - Phnom Penh Office</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer--linebreak"></div>
+
+        <div class="footer--connect">
+          <div class="footer--icon">
+            <img src="../../assets/images/bear-footer.png" alt="icon" />
+          </div>
+
+          <div class="footer--copyright">
+            @ 2020 Sun-asterisk. All rights reserved.
+          </div>
+
+          <div class="footer--connect-icon">
+            <ul>
+              <li>
+                <a href="#" class="footer--connect-youtube">
+                  <i class="fa fa-youtube-play"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="footer--connect-facebook">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="footer--connect-linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <img
+                    src="..\..\assets\images\sun-news.jpg"
+                    alt="logo-sun-news"
+                    class="footer--connect-sunnews"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

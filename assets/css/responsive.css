@@ -42,8 +42,8 @@
   }
 
   .px-7 {
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
   
   .py-5 {
@@ -151,5 +151,16 @@
   .custom-control-prev,
   .custom-control-next {
     top: 110%;
+  }
+
+  .fs-56px {
+    font-size: 34px;
+  }
+
+  .environment-image {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    position: static !important;
   }
 }

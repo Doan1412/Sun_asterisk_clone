@@ -641,3 +641,72 @@ video {
 .w-80pc {
   width: 80%;
 }
+
+.pt-100px {
+  padding-top: 100px;
+}
+
+.career {
+  position: relative; /* Đảm bảo lớp phủ và nội dung được căn chỉnh chính xác */
+  background-image: url(../images/career-bg.jpg);
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.career::before {
+  background-color: rgba(192, 17, 17, 0.9);
+  border-radius: 16px;
+  content: '';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 0; /* Lớp phủ nằm giữa ảnh nền (z-index mặc định) và nội dung */
+}
+
+.z-1 {
+  position: relative; /* Nội dung ưu tiên trên lớp phủ */
+  z-index: 1; /* Nội dung nằm trên lớp phủ */
+}
+
+.career--sun {
+  position: relative;
+}
+
+.career--sun::before {
+  background-color: #d82329;
+  border-radius: 50%;
+  content: '';
+  height: 200px;
+  left: 50%;
+  position: absolute;
+  top: 46px;
+  transform: translateX(-50%);
+  width: 200px;
+  z-index: -1;
+}
+
+.fs-56px {
+  font-size: 56px;
+}
+
+.w-400px {
+  width: 400px;
+}
+
+.bg-soft-gray {
+  background-color: #f7f5f5 !important;
+}
+
+.top-30 {
+  top: 72%;
+}
+
+.environment-image {
+  max-width: 550px;
+}
+
+.w-94pc {
+  width: 94%;
+}
